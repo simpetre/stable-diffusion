@@ -13,7 +13,7 @@ prompt = "A picture of a mouse eating a bagel"
 
 # Generate an image
 with torch.no_grad():
-    output = pipe(prompt="Two women rowing along the river Thames",
+    output = pipe(prompt="A man holding a briefcase",
               num_inference_steps=400,
               guidance_scale=15,
               temperature=0.5,
